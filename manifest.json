@@ -1,0 +1,13 @@
+{
+    "name" :"Camimi - How Long ?", 
+    "version" :"1.0",
+    "description" :"T'inquiètes.",
+    "chrome_url_overrides" : {
+        "newtab": "index.html"
+    },
+    "browser_action" : {
+        "default_icon" : "icone.jpg"
+    },
+    "manifest_version": 2
+    }
+    
