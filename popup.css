@@ -1,0 +1,12 @@
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width : 300px;
+    background-image : url(background_popup.png);
+    background-size: cover;
+    color : white;
+}
