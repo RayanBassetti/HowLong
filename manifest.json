@@ -6,7 +6,9 @@
         "newtab": "index.html"
     },
     "browser_action" : {
-        "default_icon" : "icone.jpg"
+        "default_icon" : "icone.jpg",
+        "default_popup": "popup.html",
+        "default_title": "uBlock Origin"
     },
     "manifest_version": 2
     }
