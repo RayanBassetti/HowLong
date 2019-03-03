@@ -1,12 +1,12 @@
 {
     "name" :"Camimi - How Long ?", 
-    "version" :"1.0",
+    "version" :"2.0",
     "description" :"T'inquiètes.",
     "chrome_url_overrides" : {
         "newtab": "index.html"
     },
     "browser_action" : {
-        "default_icon" : "icone.jpg",
+        "default_icon" : "/images/icone.jpg",
         "default_popup": "popup.html",
         "default_title": "uBlock Origin"
     },
