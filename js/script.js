@@ -1,3 +1,12 @@
+var data = '[["Je t\'aime.", "N"], ["Tu me manques.","N"], ["Bonne journée chaton !", "N"], ["Victor Malet est une sombre merde.", "N"],["T\'es la meilleure.", "N"],["Eh... Pssst... Tu savais que t\'étais belle ?", "N"],["Mi mi !", "N"],["LES AVENTURIERS DE L\'EXTREME", "N"], ["Wow, vous êtes charmante vous, bonsoir.", "N"],["J\'en peux plus de Battleblock Theaters Camille.", "N"] ]'
+
+var json = JSON.parse(data); // Conversion du tableau pour l'utiliser
+var randomArray = json[Math.random() * json.length | 0]; // Math.random pour une valeur aléatoire, et l'autre je sais pas
+var quote = document.getElementById("quote");
+
+quote.innerHTML = randomArray[0];
+
+
 // Set the date we're counting down to
 var countDownDate = new Date("May 30, 2019 06:55:00").getTime();
 
