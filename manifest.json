@@ -1,6 +1,6 @@
 {
     "name" :"Camimi - How Long ?", 
-    "version" :"3.0",
+    "version" :"7.0",
     "description" :"Notre extension indispensable pour survivre.",
     "chrome_url_overrides" : {
         "newtab": "index.html"
